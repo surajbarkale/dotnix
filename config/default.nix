@@ -28,6 +28,7 @@
     (with pkgs.darwin.apple_sdk.frameworks; [ Cocoa CoreServices ]);
 
   programs.fish = import ./fish.nix { inherit pkgs; };
+  programs.zsh = import ./zsh.nix;
   programs.git = import ./git.nix;
   programs.direnv = import ./direnv.nix;
   programs.neovim = import ./neovim.nix;
