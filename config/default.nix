@@ -1,5 +1,8 @@
 { config, pkgs, lib, ... }: {
   nixpkgs.config = { allowUnfree = true; };
+  home.sessionVariables = {
+    NIX_PATH = "${config.home.homeDirectory}/.nix-defexpr/channels";
+  };
   home.packages = with pkgs;
     [
       # Shell
