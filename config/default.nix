@@ -12,6 +12,7 @@
       # Utilities
       jq
       tig
+      wget
       dive
       curlie
       nixfmt
