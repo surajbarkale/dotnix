@@ -8,6 +8,8 @@
       # Shell
       lorri
       shellcheck
+      awscli2
+      aws-vault
 
       # Utilities
       jq
@@ -16,6 +18,7 @@
       dive
       curlie
       nixfmt
+      pandoc
       ripgrep
 
       # Languages
