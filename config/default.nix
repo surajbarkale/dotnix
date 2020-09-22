@@ -14,7 +14,7 @@
 
       # nix
       nixfmt
-      nixpkgs-pytools
+      pypi2nix
 
       # Utilities
       jq
