@@ -12,13 +12,16 @@
       awscli2
       aws-vault
 
+      # nix
+      nixfmt
+      nixpkgs-pytools
+
       # Utilities
       jq
       tig
       wget
       dive
       curlie
-      nixfmt
       pandoc
       ripgrep
 
