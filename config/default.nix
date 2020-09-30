@@ -22,6 +22,7 @@
       tig
       wget
       dive
+      pgcli
       curlie
       pandoc
       ripgrep
