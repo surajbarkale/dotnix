@@ -30,10 +30,20 @@
       # Languages
       go
       nodejs-12_x
-      python37
-      python37Packages.flake8
-      python37Packages.black
 
+      # python
+      poetry
+      (python3.withPackages (ps:
+        with ps; [
+          flake8
+          black
+          bpython
+          ipython
+          requests
+          ipykernel
+          jupyterlab
+          jupyterlab-git
+        ]))
     ] ++ lib.optionals pkgs.stdenv.isDarwin
     (with pkgs.darwin.apple_sdk.frameworks; [ Cocoa CoreServices ]);
 
