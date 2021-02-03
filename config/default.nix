@@ -34,7 +34,7 @@
       # python
       poetry
       (python3.withPackages
-        (ps: with ps; [ flake8 black bpython ipython requests ]))
+        (ps: with ps; [ flake8 black bpython ipython requests pytest ]))
     ] ++ lib.optionals pkgs.stdenv.isDarwin
     (with pkgs.darwin.apple_sdk.frameworks; [ Cocoa CoreServices ]);
 
