@@ -24,5 +24,5 @@
     };
     mergeTool.keepBackup = false;
   };
-  ignores = [ "*~" ".DS_Store" ".envrc" "shell.nix" ];
+  ignores = [ "*~" ".DS_Store" ".envrc" "shell.nix" ".bundle/" ];
 }
