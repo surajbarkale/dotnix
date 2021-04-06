@@ -11,6 +11,7 @@
     lg = "log --graph --decorate --pretty=oneline --abbrev-commit";
   };
   extraConfig = {
+    init.defaultBranch = "main";
     color.ui = "auto";
     push.default = "simple";
     pull.rebase = true;
