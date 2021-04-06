@@ -1,8 +1,6 @@
 {
   enable = true;
   lfs.enable = true;
-  userName = "Suraj Barkale";
-  userEmail = "suraj@barkale.com";
   aliases = {
     br = "branch";
     sw = "switch";
