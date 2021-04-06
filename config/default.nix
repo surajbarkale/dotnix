@@ -1,5 +1,5 @@
 { config, pkgs, lib, ... }: {
-  nixpkgs.config = { allowUnfree = true; };
+  nixpkgs.config.allowUnfree = true;
   home.sessionVariables = {
     NIX_PATH = "${config.home.homeDirectory}/.nix-defexpr/channels";
     AWS_VAULT_KEYCHAIN_NAME = "login";
