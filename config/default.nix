@@ -29,6 +29,7 @@
 
       # Languages
       go
+      deno
       nodejs-14_x
 
       # python
