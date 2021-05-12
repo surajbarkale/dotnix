@@ -11,6 +11,7 @@
       shellcheck
       awscli2
       aws-vault
+      gh
 
       # nix
       nixfmt
@@ -22,7 +23,6 @@
       tig
       wget
       dive
-      pgcli
       curlie
       pandoc
       ripgrep
@@ -35,7 +35,7 @@
       # python
       poetry
       (python39.withPackages
-        (ps: with ps; [ flake8 black bpython ipython requests pytest ]))
+        (ps: with ps; [ flake8 black ipython requests pytest ]))
     ] ++ lib.optionals pkgs.stdenv.isDarwin
     (with pkgs.darwin.apple_sdk.frameworks; [ Cocoa CoreServices ]);
 
