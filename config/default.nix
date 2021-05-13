@@ -23,6 +23,7 @@
       tig
       wget
       dive
+      badge
       curlie
       pandoc
       ripgrep
@@ -30,6 +31,7 @@
       # Languages
       go
       deno
+      ruby
       nodejs-14_x
 
       # python
