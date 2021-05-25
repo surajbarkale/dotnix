@@ -15,7 +15,6 @@
 
       # nix
       nixfmt
-      pypi2nix
       mach-nix
 
       # Utilities
