@@ -13,6 +13,7 @@
     color.ui = "auto";
     push.default = "simple";
     pull.rebase = true;
+    diff.lfs.textconv = "cat";
     fetch = {
       prune = true;
       pruneTags = true;
