@@ -1,5 +1,6 @@
 self: super: {
   awscli2 = super.awscli2.overrideAttrs (old: {
+    doCheck = false;
     postPatch = ''
       substituteInPlace setup.py --replace "awscrt==0.11.13" "awscrt>=0.11.13"
       substituteInPlace setup.py --replace "colorama>=0.2.5,<0.4.4" "colorama>=0.2.5"
