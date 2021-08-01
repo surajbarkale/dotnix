@@ -24,6 +24,7 @@
       dive
       badge
       curlie
+      fossil
       pandoc
       ripgrep
 
