@@ -22,6 +22,7 @@
       tig
       wget
       dive
+      bazel
       badge
       curlie
       fossil
