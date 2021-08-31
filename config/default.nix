@@ -27,6 +27,7 @@
       fossil
       pandoc
       ripgrep
+      plantuml
 
       # Languages
       go
