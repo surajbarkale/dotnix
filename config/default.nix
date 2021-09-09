@@ -31,6 +31,7 @@
 
       # Languages
       go
+      zig
       deno
       ruby
       nodejs-14_x
